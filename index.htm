@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To do list </title>
-    <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo list</title>
+        <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>To do list</h1>
-    <div class="container">
-        <div class="container-add-itens">
-            <input type="text" id="addTarefas" placeholder="Digite sua nova tarefa">
-            <button onclick="addButton()" id="button" title="Clique para adicionar sua tarefa">
-        </button>
+    <body>
+        <div class="container">
+            <h1>Todo list</h1>
+            <input type="text" id="addText" placeholder="Escreva sua nova tarefa">
+            <button id="addButton">Adicionar</button>
+            <ul id="todoList"></ul>
         </div>
-        <div class="contentBody">
-        </div>
-    </div>
-    <script src="main.js">
-  
-    </script>
-
+        <footer>
+            <p>Developed by <a href=https://github.com/Bonfim-web target="_blank">C.Bonfim</a></p>
+        </footer>
+        <script src="main.js"></script>
 </body>
 </html>
